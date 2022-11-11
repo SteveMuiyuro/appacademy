@@ -1,0 +1,94 @@
+.form_field {
+  display: flex;
+  justify-content: center;
+}
+
+fieldset {
+  background-color: aquamarine;
+}
+
+.firstname,
+.lastname,
+.email,
+.status {
+  padding: 10px;
+}
+
+.firstname_input,
+.lastname_input,
+.email_input,
+.select_status {
+  display: block;
+  align-items: center;
+  margin: 10px;
+  align-content: center;
+  margin: auto;
+}
+
+.firstname_label,
+.lastname_label,
+.email_label,
+.status_label {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.html,
+.css,
+.javascript {
+  display: inline-block;
+  justify-content: space-around;
+  margin: 10px;
+  align-items: center;
+}
+
+.program {
+  align-items: center;
+  margin: auto;
+}
+
+.text_area {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.textarea_label {
+  display: block;
+  align-items: center;
+  margin: 10px;
+  align-content: center;
+}
+
+.textarea_block {
+  display: block;
+  align-items: center;
+  margin: 10px;
+  align-content: center;
+}
+
+.date {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.date_label,
+.date_input {
+  display: block;
+  margin: 10px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+button {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  background-color: rgb(6, 46, 48);
+  color: #fff;
+}

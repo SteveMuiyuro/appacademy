@@ -4,70 +4,94 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="layout.css" />
     <title>Document</title>
   </head>
   <body>
-    <form action="" method="post">
+    <form action="" method="post" class="form_field">
       <fieldset>
         <legend>Add User</legend>
-        <div>
-          <label for="first_name">First Name</label>
-          <input type="text" name="firstname" id="first_name" />
+        <div class="firstname">
+          <label for="first_name" class="firstname_label">First Name</label>
+          <input
+            type="text"
+            name="firstname"
+            id="first_name"
+            class="firstname_input"
+          />
         </div>
 
-        <div>
-          <label for="last_name">Last Name</label>
-          <input type="text" name="lastname" id="last_name" />
+        <div class="lastname">
+          <label for="last_name" class="lastname_label">Last Name</label>
+          <input
+            type="text"
+            name="lastname"
+            id="last_name"
+            class="lastname_input"
+          />
         </div>
 
-        <div>
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
+        <div class="email">
+          <label for="email" class="email_label">Email</label>
+          <input type="email" name="email" id="email" class="email_input" />
         </div>
 
-        <div>
-          <label for="status">Status</label>
-          <select name="status" id="status">
+        <div class="status">
+          <label for="status" class="status_label">Status</label>
+          <select name="status" id="status" class="select_status">
             <option value="student">Student</option>
             <option value="Instructor">Instructor</option>
             <option value="Guest">Guest</option>
           </select>
         </div>
 
-        <p>Choose your favorite programming language:</p>
+        <div class="program">
+          <p class="">Choose your favorite programming language:</p>
 
-        <div>
-          <label for="html">HTML</label>
-          <input type="radio" name="select" id="html" />
+          <div class="html">
+            <label for="html">HTML</label>
+            <input type="radio" name="select" id="html" />
+          </div>
+
+          <div class="css">
+            <label for="css">CSS</label>
+            <input type="radio" name="select" id="css" />
+          </div>
+
+          <div class="javascript">
+            <label for="javascript">Javascript</label>
+            <input type="radio" name="select" id="Javascript" />
+          </div>
         </div>
 
-        <div>
-          <label for="css">CSS</label>
-          <input type="radio" name="select" id="css" />
-        </div>
-
-        <div>
-          <label for="javascript">Javascript</label>
-          <input type="radio" name="select" id="Javascript" />
-        </div>
-
-        <div>
-          <label for="text_area">Comments</label><br />
-          <textarea name="textarea" id="text_area" cols="30" rows="10">
+        <div class="text_area">
+          <label for="text_area" class="textarea_label">Comments</label>
+          <textarea
+            name="textarea"
+            id="text_area"
+            cols="30"
+            rows="10"
+            class="textarea_block"
+          >
           </textarea>
         </div>
 
-        <div>
-          <label for="current_date">Current Date</label>
-          <input type="date" name="Current Date" id="Current_Date" />
+        <div class="date">
+          <label for="current_date" class="date_label">Current Date</label>
+          <input
+            type="date"
+            name="Current Date"
+            id="Current_Date"
+            class="date_input"
+          />
         </div>
 
-        <div>
+        <div class="checkbox">
           <label for="sign_up">Sign Up for NewsLetter</label>
           <input type="checkbox" name="signup" id="sign_up" />
         </div>
 
-        <div>
+        <div class="checkbox">
           <label for="terms">Terms and Conditions</label>
           <input type="checkbox" name="terms" id="terms" />
         </div>
